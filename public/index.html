@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Timestamp</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+        <div class="starter-template">
+            <h1 class="display-3">Timestamp Microservice</h1>
+        </div>
+      
+        <dl class="row">
+            <dt class="col-sm-2">User stories</dt>
+            <dd class="col-sm-10">Pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016).</dd>
+            <dd class="col-sm-10 offset-sm-2">If it does, it returns both the Unix timestamp and the natural language form of that date.</dd>
+            <dd class="col-sm-10 offset-sm-2">If it does not contain a date or Unix timestamp, it returns null for those properties.</dd>
+        
+            <dt class="col-sm-2 example">Example usage:</dt>
+            <dd class="col-sm-10 example">https://my-freecodecamp-projects-lspk.c9users.io/December%2015,%202015</dd>
+            <dd class="col-sm-10 offset-sm-2">https://my-freecodecamp-projects-lspk.c9users.io/1450137600</dd>
+            
+            <dt class="col-sm-2 example">Example output:</dt>
+            <dd class="col-sm-10 example">{ "unix": 1450137600, "natural": "December 15, 2015" }</dd>
+        <dl>
+
+    </div><!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+  </body>
+</html>
